@@ -1,474 +1,483 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Enter your description here"/>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <title>Okazu | Menu</title>
-  </head>
-  <body>
-    <!-- PRELOADER -->
-    <div id="preloadcontainer">
-      <div id="preload-content"> 
-        <img src="assets/img/logo.png">
-      </div>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <title>Okazu | Menu</title>
+</head>
+
+<body>
+  <!-- PRELOADER -->
+  <div id="preloadcontainer">
+    <div id="preload-content">
+      <img src="assets/img/logo.png">
     </div>
-    <!-- PRELOADER -->
-    <!-- Header Start Here -->
-    <header>
-      <nav class="navbar navbar-expand-md navbar-light c-navbar fixed-top">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  </div>
+  <!-- PRELOADER -->
+  <!-- Header Start Here -->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light c-navbar fixed-top">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="m-logo">
-          <a href="/"><img src="assets/img/logo.png" alt="Okazu Logo"></a>
+      </button>
+      <div class="m-logo">
+        <a href="/"><img src="assets/img/logo.png" alt="Okazu Logo"></a>
+      </div>
+      <div class="container max-container">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="ml-auto navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about-us.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/gallery.html">Gallery</a>
+            </li>
+          </ul>
+          <div class="m-auto c-logo d-block">
+            <a href="/"><img src="assets/img/logo.png" alt="Okazu Logo"></a>
+          </div>
+          <ul class="mr-auto navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link myactive" href="/menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/catering.html">Catering</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-        <div class="container max-container">
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="ml-auto navbar-nav">
-              <li class="nav-item ">
-                <a class="nav-link" href="/">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/about-us.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/gallery.html">Gallery</a>
-              </li>
-            </ul>
-            <div class="m-auto c-logo d-block">
-              <a href="/"><img src="assets/img/logo.png" alt="Okazu Logo"></a>
-            </div>
-            <ul class="mr-auto navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link myactive" href="/menu.html">Menu</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/catering.html">Catering</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/contact.html">Contact</a>
-              </li>
-            </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- Header End Here -->
+  <!-- Main Content Start Here -->
+  <div class="menu">
+    <!-- START Hero banner Section -->
+    <section class="hero-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="menu-h1">Our Menu</h1>
           </div>
         </div>
-      </nav>
-    </header>
-    <!-- Header End Here -->
-    <!-- Main Content Start Here -->
-    <div class="menu">
-      <!-- START Hero banner Section -->
-      <section class="hero-bg">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h1 class="menu-h1">Our Menu</h1>
+      </div>
+    </section>
+    <!-- END Hero banner Section -->
+    <section class="main-sec">
+      <div class="container">
+        <div class="mb-5 row">
+          <div class="col-xl-6 col-lg-6 col-md-8 col-sm-6">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Our Menu</li>
+              </ol>
+            </nav>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-4 col-sm-6">
+            <div class="custom-select" style="width:200px;">
+              <select>
+                <option value="0">Sort By Latest</option>
+                <option value="1">Select</option>
+                <option value="2">Select</option>
+                <option value="3">Select</option>
+              </select>
             </div>
           </div>
         </div>
-      </section>
-      <!-- END Hero banner Section -->
-      <section class="main-sec">
-        <div class="container">
-          <div class="mb-5 row">
-            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-6">
-              <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="/">Home</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Our Menu</li>
-                </ol>
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+            <!-- SEARCH FORM -->
+            <form>
+              <div class="search-input">
+                <label>Search</label>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Type here...">
+                  <span class="input-group-text" id="inputGroup-sizing-default"><i class="fas fa-search"></i></span>
+                </div>
+              </div>
+            </form>
+            <!-- SEARCH FORM -->
+          </div>
+          <div class="col-xl-9 col-lg-9 col-md-8 col-sm-6">
+            <div class="calender-btn">
+              <a href="#"><button class="btn btn-light">RESERVATION <i class="fas fa-calendar-day"></i></button></a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+            <div class="category-info">
+              <h3>Categories</h3>
+              <ul>
+                <li><a href="#">Cocktail</a></li>
+                <li><a href="#">Desserts</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">Uncategories</a></li>
+                <li><a href="#">Cocktail</a></li>
+                <li><a href="#">Desserts</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">Uncategories</a></li>
+                <li><a href="#">Cocktail</a></li>
+                <li><a href="#">Desserts</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">Uncategories</a></li>
+                <li><a href="#">Cocktail</a></li>
+                <li><a href="#">Desserts</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">Uncategories</a></li>
+              </ul>
+            </div>
+            <div class="product-info">
+              <h2>Products</h2>
+              <div class="info-item">
+                <div class="row">
+                  <div class="col-4">
+                    <div class="product-img">
+                      <img src="assets/img/menu/menu-1.png" alt="Product IMAGE">
+                    </div>
+                  </div>
+                  <div class="col-8">
+                    <div class="product-item">
+                      <p>Random Product 1</p>
+                      <a href="#">Uncategories</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="row">
+                  <div class="col-4">
+                    <div class="product-img">
+                      <img src="assets/img/menu/menu-2.png" alt="Product IMAGE">
+                    </div>
+                  </div>
+                  <div class="col-8">
+                    <div class="product-item">
+                      <p>Random Product 1</p>
+                      <a href="#">Uncategories</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="row">
+                  <div class="col-4">
+                    <div class="product-img">
+                      <img src="assets/img/menu/menu-3.png" alt="Product IMAGE">
+                    </div>
+                  </div>
+                  <div class="col-8">
+                    <div class="product-item">
+                      <p>Random Product 1</p>
+                      <a href="#">Uncategories</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-9 col-lg-9 col-md-8 col-sm-12">
+            <div class="product-inner">
+              <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                  <div class="product-card">
+                    <div class="product-img img-hover-zoom img-hover-zoom--brightnes">
+                      <img src="assets/img/menu/menu-1.png">
+                    </div>
+                    <div class="product-bottom">
+                      <h4>Boiled Crayfish</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <hr class="dash-hr">
+                      <div class="price-bottom">
+                        <div class="row">
+                          <div class="col-6">
+                            <span>$46</span>
+                          </div>
+                          <div class="col-6">
+                            <a href="/menu-detail.html"><button class="btn btn-light more-btn">View</button></a>
+                            <!-- <a href="#"><button class="btn btn-light"><img src="assets/img/menu/Vector.png"></button></a> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                  <div class="product-card">
+                    <div class="product-img img-hover-zoom img-hover-zoom--brightnes">
+                      <img src="assets/img/menu/menu-2.png">
+                    </div>
+                    <div class="product-bottom">
+                      <h4>Boiled Crayfish</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <hr class="dash-hr">
+                      <div class="price-bottom">
+                        <div class="row">
+                          <div class="col-6">
+                            <span>$46</span>
+                          </div>
+                          <div class="col-6">
+                            <a href="/menu-detail.html"><button class="btn btn-light more-btn">View</button></a>
+                            <!-- <a href="#"><button class="btn btn-light"><img src="assets/img/menu/Vector.png"></button></a> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                  <div class="product-card">
+                    <div class="product-img img-hover-zoom img-hover-zoom--brightnes">
+                      <img src="assets/img/menu/menu-3.png">
+                    </div>
+                    <div class="product-bottom">
+                      <h4>Boiled Crayfish</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <hr class="dash-hr">
+                      <div class="price-bottom">
+                        <div class="row">
+                          <div class="col-6">
+                            <span>$46</span>
+                          </div>
+                          <div class="col-6">
+                            <a href="/menu-detail.html"><button class="btn btn-light more-btn">View</button></a>
+                            <!-- <a href="#"><button class="btn btn-light"><img src="assets/img/menu/Vector.png"></button></a> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                  <div class="product-card">
+                    <div class="product-img img-hover-zoom img-hover-zoom--brightnes">
+                      <img src="assets/img/menu/menu-4.png">
+                    </div>
+                    <div class="product-bottom">
+                      <h4>Boiled Crayfish</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <hr class="dash-hr">
+                      <div class="price-bottom">
+                        <div class="row">
+                          <div class="col-6">
+                            <span>$46</span>
+                          </div>
+                          <div class="col-6">
+                            <a href="/menu-detail.html"><button class="btn btn-light more-btn">View</button></a>
+                            <!-- <a href="#"><button class="btn btn-light"><img src="assets/img/menu/Vector.png"></button></a> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                  <div class="product-card">
+                    <div class="product-img img-hover-zoom img-hover-zoom--brightnes">
+                      <img src="assets/img/menu/menu-5.png">
+                    </div>
+                    <div class="product-bottom">
+                      <h4>Boiled Crayfish</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <hr class="dash-hr">
+                      <div class="price-bottom">
+                        <div class="row">
+                          <div class="col-6">
+                            <span>$46</span>
+                          </div>
+                          <div class="col-6">
+                            <a href="/menu-detail.html"><button class="btn btn-light more-btn">View</button></a>
+                            <!-- <a href="#"><button class="btn btn-light"><img src="assets/img/menu/Vector.png"></button></a> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                  <div class="product-card">
+                    <div class="product-img img-hover-zoom img-hover-zoom--brightnes">
+                      <img src="assets/img/menu/menu-6.png">
+                    </div>
+                    <div class="product-bottom">
+                      <h4>Boiled Crayfish</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <hr class="dash-hr">
+                      <div class="price-bottom">
+                        <div class="row">
+                          <div class="col-6">
+                            <span>$46</span>
+                          </div>
+                          <div class="col-6">
+                            <a href="/menu-detail.html"><button class="btn btn-light more-btn">View</button></a>
+                            <!-- <a href="#"><button class="btn btn-light"><img src="assets/img/menu/Vector.png"></button></a> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                  <div class="product-card">
+                    <div class="product-img img-hover-zoom img-hover-zoom--brightnes">
+                      <img src="assets/img/menu/menu-1.png">
+                    </div>
+                    <div class="product-bottom">
+                      <h4>Boiled Crayfish</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <hr class="dash-hr">
+                      <div class="price-bottom">
+                        <div class="row">
+                          <div class="col-6">
+                            <span>$46</span>
+                          </div>
+                          <div class="col-6">
+                            <a href="/menu-detail.html"><button class="btn btn-light more-btn">View</button></a>
+                            <!-- <a href="#"><button class="btn btn-light"><img src="assets/img/menu/Vector.png"></button></a> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                  <div class="product-card">
+                    <div class="product-img img-hover-zoom img-hover-zoom--brightnes">
+                      <img src="assets/img/menu/menu-2.png">
+                    </div>
+                    <div class="product-bottom">
+                      <h4>Boiled Crayfish</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <hr class="dash-hr">
+                      <div class="price-bottom">
+                        <div class="row">
+                          <div class="col-6">
+                            <span>$46</span>
+                          </div>
+                          <div class="col-6">
+                            <a href="/menu-detail.html"><button class="btn btn-light more-btn">View</button></a>
+                            <!-- <a href="#"><button class="btn btn-light"><img src="assets/img/menu/Vector.png"></button></a> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                  <div class="product-card">
+                    <div class="product-img img-hover-zoom img-hover-zoom--brightnes">
+                      <img src="assets/img/menu/menu-3.png">
+                    </div>
+                    <div class="product-bottom">
+                      <h4>Boiled Crayfish</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <hr class="dash-hr">
+                      <div class="price-bottom">
+                        <div class="row">
+                          <div class="col-6">
+                            <span>$46</span>
+                          </div>
+                          <div class="col-6">
+                            <a href="/menu-detail.html"><button class="btn btn-light more-btn">View</button></a>
+                            <!-- <a href="#"><button class="btn btn-light"><img src="assets/img/menu/Vector.png"></button></a> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="c-pagination">
+              <nav aria-label="...">
+                <ul class="pagination">
+                  <li class="page-item"><a class="page-link" href="#">Back</a></li>
+                  <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
               </nav>
             </div>
-            <div class="col-xl-6 col-lg-6 col-md-4 col-sm-6">
-              <div class="custom-select" style="width:200px;">
-                <select>
-                  <option value="0">Sort By Latest</option>
-                  <option value="1">Select</option>
-                  <option value="2">Select</option>
-                  <option value="3">Select</option>
-                </select>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
-              <!-- SEARCH FORM -->
-              <form>
-                <div class="search-input">
-                  <label>Search</label>
-                  <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Type here...">
-                    <span class="input-group-text" id="inputGroup-sizing-default"><i class="fas fa-search"></i></span>
-                  </div>
-                </div>
-              </form>
-              <!-- SEARCH FORM -->
-            </div>
-            <div class="col-xl-9 col-lg-9 col-md-8 col-sm-6">
-              <div class="calender-btn">
-                <a href="#"><button class="btn btn-light">RESERVATION <i class="fas fa-calendar-day"></i></button></a>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12">
-              <div class="category-info">
-                <h3>Categories</h3>
-                <ul>
-                  <li><a href="#">Cocktail</a></li>
-                  <li><a href="#">Desserts</a></li>
-                  <li><a href="#">Food</a></li>
-                  <li><a href="#">Recipes</a></li>
-                  <li><a href="#">Uncategories</a></li>
-                  <li><a href="#">Cocktail</a></li>
-                  <li><a href="#">Desserts</a></li>
-                  <li><a href="#">Food</a></li>
-                  <li><a href="#">Recipes</a></li>
-                  <li><a href="#">Uncategories</a></li>
-                  <li><a href="#">Cocktail</a></li>
-                  <li><a href="#">Desserts</a></li>
-                  <li><a href="#">Food</a></li>
-                  <li><a href="#">Recipes</a></li>
-                  <li><a href="#">Uncategories</a></li>
-                  <li><a href="#">Cocktail</a></li>
-                  <li><a href="#">Desserts</a></li>
-                  <li><a href="#">Food</a></li>
-                  <li><a href="#">Recipes</a></li>
-                  <li><a href="#">Uncategories</a></li>
-                </ul>
-              </div>
-              <div class="product-info">
-                <h2>Products</h2>
-                <div class="info-item">
-                  <div class="row">
-                    <div class="col-4">
-                      <div class="product-img">
-                        <img src="assets/img/menu/menu-1.png" alt="Product IMAGE">
-                      </div>
-                    </div>
-                    <div class="col-8">
-                      <div class="product-item">
-                        <p>Random Product 1</p>
-                        <a href="#">Uncategories</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="info-item">
-                  <div class="row">
-                    <div class="col-4">
-                      <div class="product-img">
-                        <img src="assets/img/menu/menu-2.png" alt="Product IMAGE">
-                      </div>
-                    </div>
-                    <div class="col-8">
-                      <div class="product-item">
-                        <p>Random Product 1</p>
-                        <a href="#">Uncategories</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="info-item">
-                  <div class="row">
-                    <div class="col-4">
-                      <div class="product-img">
-                        <img src="assets/img/menu/menu-3.png" alt="Product IMAGE">
-                      </div>
-                    </div>
-                    <div class="col-8">
-                      <div class="product-item">
-                        <p>Random Product 1</p>
-                        <a href="#">Uncategories</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-9 col-lg-9 col-md-8 col-sm-12">
-              <div class="product-inner">
-                <div class="row">
-                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="product-card">
-                      <div class="product-img img-hover-zoom img-hover-zoom--brightnes">
-                        <img src="assets/img/menu/menu-1.png">
-                      </div>
-                      <div class="product-bottom">
-                        <h4>Boiled Crayfish</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <hr class="dash-hr">
-                        <div class="price-bottom">
-                          <div class="row">
-                            <div class="col-6">
-                              <span>$46</span>
-                            </div>
-                            <div class="col-6">
-                              <a href="/menu-detail.html"><button class="btn btn-light more-btn">View</button></a>
-                              <!-- <a href="#"><button class="btn btn-light"><img src="assets/img/menu/Vector.png"></button></a> -->
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="product-card">
-                      <div class="product-img img-hover-zoom img-hover-zoom--brightnes">
-                        <img src="assets/img/menu/menu-2.png">
-                      </div>
-                      <div class="product-bottom">
-                        <h4>Boiled Crayfish</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <hr class="dash-hr">
-                        <div class="price-bottom">
-                          <div class="row">
-                            <div class="col-6">
-                              <span>$46</span>
-                            </div>
-                            <div class="col-6">
-                              <a href="/menu-detail.html"><button class="btn btn-light more-btn">View</button></a>
-                              <!-- <a href="#"><button class="btn btn-light"><img src="assets/img/menu/Vector.png"></button></a> -->
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="product-card">
-                      <div class="product-img img-hover-zoom img-hover-zoom--brightnes">
-                        <img src="assets/img/menu/menu-3.png">
-                      </div>
-                      <div class="product-bottom">
-                        <h4>Boiled Crayfish</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <hr class="dash-hr">
-                        <div class="price-bottom">
-                          <div class="row">
-                            <div class="col-6">
-                              <span>$46</span>
-                            </div>
-                            <div class="col-6">
-                              <a href="/menu-detail.html"><button class="btn btn-light more-btn">View</button></a>
-                              <!-- <a href="#"><button class="btn btn-light"><img src="assets/img/menu/Vector.png"></button></a> -->
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="product-card">
-                      <div class="product-img img-hover-zoom img-hover-zoom--brightnes">
-                        <img src="assets/img/menu/menu-4.png">
-                      </div>
-                      <div class="product-bottom">
-                        <h4>Boiled Crayfish</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <hr class="dash-hr">
-                        <div class="price-bottom">
-                          <div class="row">
-                            <div class="col-6">
-                              <span>$46</span>
-                            </div>
-                            <div class="col-6">
-                              <a href="/menu-detail.html"><button class="btn btn-light more-btn">View</button></a>
-                              <!-- <a href="#"><button class="btn btn-light"><img src="assets/img/menu/Vector.png"></button></a> -->
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="product-card">
-                      <div class="product-img img-hover-zoom img-hover-zoom--brightnes">
-                        <img src="assets/img/menu/menu-5.png">
-                      </div>
-                      <div class="product-bottom">
-                        <h4>Boiled Crayfish</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <hr class="dash-hr">
-                        <div class="price-bottom">
-                          <div class="row">
-                            <div class="col-6">
-                              <span>$46</span>
-                            </div>
-                            <div class="col-6">
-                              <a href="/menu-detail.html"><button class="btn btn-light more-btn">View</button></a>
-                              <!-- <a href="#"><button class="btn btn-light"><img src="assets/img/menu/Vector.png"></button></a> -->
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="product-card">
-                      <div class="product-img img-hover-zoom img-hover-zoom--brightnes">
-                        <img src="assets/img/menu/menu-6.png">
-                      </div>
-                      <div class="product-bottom">
-                        <h4>Boiled Crayfish</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <hr class="dash-hr">
-                        <div class="price-bottom">
-                          <div class="row">
-                            <div class="col-6">
-                              <span>$46</span>
-                            </div>
-                            <div class="col-6">
-                              <a href="/menu-detail.html"><button class="btn btn-light more-btn">View</button></a>
-                              <!-- <a href="#"><button class="btn btn-light"><img src="assets/img/menu/Vector.png"></button></a> -->
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="product-card">
-                      <div class="product-img img-hover-zoom img-hover-zoom--brightnes">
-                        <img src="assets/img/menu/menu-1.png">
-                      </div>
-                      <div class="product-bottom">
-                        <h4>Boiled Crayfish</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <hr class="dash-hr">
-                        <div class="price-bottom">
-                          <div class="row">
-                            <div class="col-6">
-                              <span>$46</span>
-                            </div>
-                            <div class="col-6">
-                              <a href="/menu-detail.html"><button class="btn btn-light more-btn">View</button></a>
-                              <!-- <a href="#"><button class="btn btn-light"><img src="assets/img/menu/Vector.png"></button></a> -->
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="product-card">
-                      <div class="product-img img-hover-zoom img-hover-zoom--brightnes">
-                        <img src="assets/img/menu/menu-2.png">
-                      </div>
-                      <div class="product-bottom">
-                        <h4>Boiled Crayfish</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <hr class="dash-hr">
-                        <div class="price-bottom">
-                          <div class="row">
-                            <div class="col-6">
-                              <span>$46</span>
-                            </div>
-                            <div class="col-6">
-                              <a href="/menu-detail.html"><button class="btn btn-light more-btn">View</button></a>
-                              <!-- <a href="#"><button class="btn btn-light"><img src="assets/img/menu/Vector.png"></button></a> -->
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="product-card">
-                      <div class="product-img img-hover-zoom img-hover-zoom--brightnes">
-                        <img src="assets/img/menu/menu-3.png">
-                      </div>
-                      <div class="product-bottom">
-                        <h4>Boiled Crayfish</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <hr class="dash-hr">
-                        <div class="price-bottom">
-                          <div class="row">
-                            <div class="col-6">
-                              <span>$46</span>
-                            </div>
-                            <div class="col-6">
-                              <a href="/menu-detail.html"><button class="btn btn-light more-btn">View</button></a>
-                              <!-- <a href="#"><button class="btn btn-light"><img src="assets/img/menu/Vector.png"></button></a> -->
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-                <div class="c-pagination">
-                  <nav aria-label="...">
-                    <ul class="pagination">
-                      <li class="page-item"><a class="page-link" href="#">Back</a></li>
-                      <li class="page-item"><a class="page-link active" href="#">1</a></li>
-                      <li class="page-item"><a class="page-link" href="#">2</a></li>
-                      <li class="page-item"><a class="page-link" href="#">3</a></li>
-                      <li class="page-item"><a class="page-link" href="#">Next</a></li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-    <!-- Main Content End Here -->
-    <!-- Footer Section Start -->
-    <footer class="footer-main">
-      <div class="container max-container">
-        <div class="row">
-          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-            <div class="footer-logo">
-              <img src="assets/img/footer-logo.png">
-            </div>
-            <h2 class="contact-h">Contact Us</h2>
-            <p class="email-p"><span class="email-span">Email:</span> info@o-kazu.com</p>
-            <p class="phone-p"><span class="phone-span">Phone:</span> +966112064422, 0556868969</p>
-            <p class="phone-p"><span class="phone-span">Address:</span> Prince Turki Ibn Abdulaziz Al Awwal Rd, Exit 2, Hittin, Riyadh, SaudiArabia</p>
-            <ul class="social-footer">
-              <li><a target="_blank" href="https://www.facebook.com/Okazu.sa/"><i class="fab fa-facebook"></i></a></li>
-              <li><a target="_blank" href="https://instagram.com/okazu_sa?utm_medium=copy_link"><i class="fab fa-instagram"></i></a></li>
-              <li><a target="_blank" href="https://twitter.com/Okazu_sa"><i class="fab fa-twitter"></i></a></li>
-              <li><a target="_blank" href="https://www.linkedin.com/company/okazusa"><i class="fab fa-linkedin"></i></a></li>
-              <li><a target="_blank" href="https://www.tripadvisor.com/Profile/Okazu_sa"><i class="fab fa-tripadvisor"></i></a></li>
-              <li><a target="_blank" href="https://vm.tiktok.com/ZSJnDRS98/"><i class="fab fa-tiktok"></i></a></li>
-            </ul>
-          </div>
-          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-            <div class="footer-right">
-              <h2>we are coming for you</h2>
-              <form>
-                <div class="form-group">
-                  <label>Subscribe our Newsletter</label>
-                  <input class="form-control" type="text" placeholder="Email">
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="copyright-text">
-            <p>Copyright &copy; 2021 O-kazu (Pvt. ltd)</p>
           </div>
         </div>
       </div>
-    </footer>
-    <!-- Footer Section End -->
-    <!-- Back To Top -->
-    <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
-    <!-- Back To Top -->
-    <!-- Main Content End Here -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/script.js"></script>
-    <script src="assets/js/select.js"></script>
-  </body>
+  </div>
+  </section>
+  </div>
+  <!-- Main Content End Here -->
+  <!-- Footer Section Start -->
+  <footer class="footer-main">
+    <div class="container max-container">
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+          <div class="footer-logo">
+            <img src="assets/img/footer-logo.png">
+          </div>
+          <h2 class="contact-h">Contact Us</h2>
+          <p class="email-p"><span class="email-span">Email:</span> info@o-kazu.com</p>
+          <p class="phone-p"><span class="phone-span">Phone:</span> +966112064422, 0556868969</p>
+          <p class="phone-p"><span class="phone-span">Address:</span> Prince Turki Ibn Abdulaziz Al Awwal Rd, Exit 2,
+            Hittin, Riyadh, SaudiArabia</p>
+          <ul class="social-footer">
+            <li><a target="_blank" href="https://www.facebook.com/Okazu.sa/"><i class="fab fa-facebook"></i></a></li>
+            <li><a target="_blank" href="https://instagram.com/okazu_sa?utm_medium=copy_link"><i
+                  class="fab fa-instagram"></i></a></li>
+            <li><a target="_blank" href="https://twitter.com/Okazu_sa"><i class="fab fa-twitter"></i></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/company/okazusa"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li><a target="_blank" href="https://www.tripadvisor.com/Profile/Okazu_sa"><i
+                  class="fab fa-tripadvisor"></i></a></li>
+            <li><a target="_blank" href="https://vm.tiktok.com/ZSJnDRS98/"><i class="fab fa-tiktok"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+          <div class="footer-right">
+            <h2>we are coming for you</h2>
+            <form>
+              <div class="form-group">
+                <label>Subscribe our Newsletter</label>
+                <input class="form-control" type="text" placeholder="Email">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="copyright-text">
+          <p>Copyright &copy; 2021 O-kazu (Pvt. ltd)</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer Section End -->
+  <!-- Back To Top -->
+  <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i
+      class="fas fa-chevron-up"></i></a>
+  <!-- Back To Top -->
+  <!-- Main Content End Here -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/select.js"></script>
+</body>
+
 </html>
